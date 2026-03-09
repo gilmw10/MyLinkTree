@@ -1,5 +1,5 @@
 import './App.css';
-import { FaGithub, FaInstagram, FaBlog, FaSun, FaMoon, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaBlog, FaSun, FaMoon, FaGlobe } from "react-icons/fa";
 import { useState } from 'react';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     { id : 1, title: "Github 바로가기", url: "https://github.com/gilmw10/", icon: <FaGithub />, category: "coding" },
     { id : 2, title: "Instagram 바로가기", url: "https://www.instagram.com/m.juxy_/,", icon: <FaInstagram />, category: "sns"},
     { id : 3, title: "나의 기술 블로그", url: "https://velog.io/@mjuxy_/posts", icon: <FaBlog />, category: "coding"},
-    { id : 4, title: "디스코드 서버", url: "https://discord.gg/gYArBQVK", icon: <FaDiscord />, category: "sns"},
+    { id : 4, title: "LCK 홍보 사이트", url: "https://lol-lck.vercel.app", icon: <FaGlobe />, category: "coding"},
   ];
 
   const [filter, setFilter] = useState("all"); 
